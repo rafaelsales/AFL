@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0" codebase="file:." href="AFL.jnlp">
+
+	<information>
+		<title>AFL - Analisador de Fórmulas Lógicas / LFP - Logic Formula Parser</title>
+		<vendor>Rafael Sales</vendor>
+		<description>It uses a parsing algorithm to check if a given formula is a well-formed formula and build its decomposition tree</description>
+		<homepage href="http://alu.dc.ufc.br/~rafael/afl" />
+		<offline-allowed/>
+	</information>
+	<security>
+		<j2ee-application-client-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.5+" />
+		<jar href="./AFL.jar" main="true" />
+	</resources>
+	<application-desc/>
+</jnlp>

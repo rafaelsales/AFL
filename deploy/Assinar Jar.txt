@@ -1,0 +1,2 @@
+keytool -genkeypair -alias AFLCert -keystore AFL.keystore -validity 180
+jarsigner -keystore AFL.keystore -signedjar AFL.jar AFLBin.jar AFLCert
